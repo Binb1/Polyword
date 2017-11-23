@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0007180B1FC1BF5100A037BA /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0007180A1FC1BF5100A037BA /* Resnet50.mlmodel */; };
-		002498251FBB629100440945 /* settings-work-tool.png in Resources */ = {isa = PBXBuildFile; fileRef = 002498241FBB629100440945 /* settings-work-tool.png */; };
-		003267F01FC0ACA700BEACE0 /* flash-on-indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 003267EF1FC0ACA600BEACE0 /* flash-on-indicator.png */; };
-		003267F21FC0ACAE00BEACE0 /* automatic-flash-symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 003267F11FC0ACAD00BEACE0 /* automatic-flash-symbol.png */; };
-		003267F41FC0ACB600BEACE0 /* flash-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 003267F31FC0ACB600BEACE0 /* flash-off.png */; };
 		004035981EF00C3200DD8887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004035971EF00C3200DD8887 /* AppDelegate.swift */; };
 		0040359C1EF00C3200DD8887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0040359B1EF00C3200DD8887 /* ViewController.swift */; };
 		0040359F1EF00C3200DD8887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0040359D1EF00C3200DD8887 /* Main.storyboard */; };
@@ -27,10 +23,6 @@
 		00D576841FB9A9B60073A3A2 /* IAPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D576831FB9A9B60073A3A2 /* IAPHandler.swift */; };
 		00D576861FB9D6E70073A3A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00D576851FB9D6E60073A3A2 /* GoogleService-Info.plist */; };
 		00DA925E1FBDD41D0096AF13 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA925D1FBDD41D0096AF13 /* Tutorial.swift */; };
-		00F69A7A1FC73E02006A78CF /* Tuto01-Polyword.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F69A771FC73E02006A78CF /* Tuto01-Polyword.png */; };
-		00F69A7B1FC73E02006A78CF /* Tuto02-Polyword.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F69A781FC73E02006A78CF /* Tuto02-Polyword.png */; };
-		00F69A7C1FC73E02006A78CF /* Tuto03-Polyword.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F69A791FC73E02006A78CF /* Tuto03-Polyword.png */; };
-		00F69A7E1FC73E67006A78CF /* Polyword - credits.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F69A7D1FC73E67006A78CF /* Polyword - credits.png */; };
 		00F69A801FC73F83006A78CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F69A7F1FC73F83006A78CF /* Constants.swift */; };
 		084FB8132F20CDE66EBB9C01 /* Pods_Life_Translator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9153809F494DEEC121ADC927 /* Pods_Life_Translator.framework */; };
 		3AA2B549544D61BAFE66FB4E /* Pods_Life_TranslatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28DD317B04F1953148C99EF /* Pods_Life_TranslatorUITests.framework */; };
@@ -56,10 +48,6 @@
 
 /* Begin PBXFileReference section */
 		0007180A1FC1BF5100A037BA /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = ../../../../Downloads/Resnet50.mlmodel; sourceTree = "<group>"; };
-		002498241FBB629100440945 /* settings-work-tool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings-work-tool.png"; path = "../../../../Downloads/settings-work-tool.png"; sourceTree = "<group>"; };
-		003267EF1FC0ACA600BEACE0 /* flash-on-indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flash-on-indicator.png"; path = "../../../../Downloads/flash-on-indicator.png"; sourceTree = "<group>"; };
-		003267F11FC0ACAD00BEACE0 /* automatic-flash-symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "automatic-flash-symbol.png"; path = "../../../../Downloads/automatic-flash-symbol.png"; sourceTree = "<group>"; };
-		003267F31FC0ACB600BEACE0 /* flash-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flash-off.png"; path = "../../../../Downloads/flash-off.png"; sourceTree = "<group>"; };
 		004035941EF00C3200DD8887 /* Life-Translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life-Translator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		004035971EF00C3200DD8887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0040359B1EF00C3200DD8887 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,10 +69,6 @@
 		00D576831FB9A9B60073A3A2 /* IAPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPHandler.swift; sourceTree = "<group>"; };
 		00D576851FB9D6E60073A3A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		00DA925D1FBDD41D0096AF13 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
-		00F69A771FC73E02006A78CF /* Tuto01-Polyword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tuto01-Polyword.png"; path = "../../../../Desktop/Dev/App Screen/Tuto01-Polyword.png"; sourceTree = "<group>"; };
-		00F69A781FC73E02006A78CF /* Tuto02-Polyword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tuto02-Polyword.png"; path = "../../../../Desktop/Dev/App Screen/Tuto02-Polyword.png"; sourceTree = "<group>"; };
-		00F69A791FC73E02006A78CF /* Tuto03-Polyword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tuto03-Polyword.png"; path = "../../../../Desktop/Dev/App Screen/Tuto03-Polyword.png"; sourceTree = "<group>"; };
-		00F69A7D1FC73E67006A78CF /* Polyword - credits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Polyword - credits.png"; path = "../../../../Desktop/Autre/Polyword - credits.png"; sourceTree = "<group>"; };
 		00F69A7F1FC73F83006A78CF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		06D24B692566FC564A6FAAE8 /* Pods-Life-TranslatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Life-TranslatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Life-TranslatorTests/Pods-Life-TranslatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2FE7C12DF45F7C0DFC07F77B /* Pods-Life-Translator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Life-Translator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Life-Translator/Pods-Life-Translator.release.xcconfig"; sourceTree = "<group>"; };
@@ -151,7 +135,6 @@
 		004035961EF00C3200DD8887 /* Life-Translator */ = {
 			isa = PBXGroup;
 			children = (
-				008344BC1FB1D1530065D7C5 /* Images */,
 				004035CD1EF0282100DD8887 /* MLModel */,
 				0094920C1EF1DC1900DC9231 /* Translator.swift */,
 				00F69A7F1FC73F83006A78CF /* Constants.swift */,
@@ -195,21 +178,6 @@
 				0007180A1FC1BF5100A037BA /* Resnet50.mlmodel */,
 			);
 			path = MLModel;
-			sourceTree = "<group>";
-		};
-		008344BC1FB1D1530065D7C5 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				003267F11FC0ACAD00BEACE0 /* automatic-flash-symbol.png */,
-				003267F31FC0ACB600BEACE0 /* flash-off.png */,
-				003267EF1FC0ACA600BEACE0 /* flash-on-indicator.png */,
-				00F69A771FC73E02006A78CF /* Tuto01-Polyword.png */,
-				00F69A781FC73E02006A78CF /* Tuto02-Polyword.png */,
-				00F69A791FC73E02006A78CF /* Tuto03-Polyword.png */,
-				002498241FBB629100440945 /* settings-work-tool.png */,
-				00F69A7D1FC73E67006A78CF /* Polyword - credits.png */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 		68D0C4CD6A1B41743EAA7902 /* Frameworks */ = {
@@ -354,18 +322,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00F69A7C1FC73E02006A78CF /* Tuto03-Polyword.png in Resources */,
-				003267F41FC0ACB600BEACE0 /* flash-off.png in Resources */,
-				00F69A7A1FC73E02006A78CF /* Tuto01-Polyword.png in Resources */,
-				003267F21FC0ACAE00BEACE0 /* automatic-flash-symbol.png in Resources */,
-				003267F01FC0ACA700BEACE0 /* flash-on-indicator.png in Resources */,
-				00F69A7E1FC73E67006A78CF /* Polyword - credits.png in Resources */,
 				004035A41EF00C3200DD8887 /* LaunchScreen.storyboard in Resources */,
 				00D576861FB9D6E70073A3A2 /* GoogleService-Info.plist in Resources */,
 				004035A11EF00C3200DD8887 /* Assets.xcassets in Resources */,
 				0040359F1EF00C3200DD8887 /* Main.storyboard in Resources */,
-				002498251FBB629100440945 /* settings-work-tool.png in Resources */,
-				00F69A7B1FC73E02006A78CF /* Tuto02-Polyword.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
