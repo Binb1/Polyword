@@ -21,9 +21,8 @@
 		00CBA74B1FB1FD5C0017ACED /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CBA74A1FB1FD5C0017ACED /* Credits.swift */; };
 		00CF69C61FB3458E00ABF186 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CF69C51FB3458E00ABF186 /* StoreKit.framework */; };
 		00D576841FB9A9B60073A3A2 /* IAPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D576831FB9A9B60073A3A2 /* IAPHandler.swift */; };
-		00D576861FB9D6E70073A3A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00D576851FB9D6E60073A3A2 /* GoogleService-Info.plist */; };
 		00DA925E1FBDD41D0096AF13 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA925D1FBDD41D0096AF13 /* Tutorial.swift */; };
-		00F69A801FC73F83006A78CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F69A7F1FC73F83006A78CF /* Constants.swift */; };
+		00F69A8B1FC88216006A78CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F69A8A1FC88216006A78CF /* Constants.swift */; };
 		084FB8132F20CDE66EBB9C01 /* Pods_Life_Translator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9153809F494DEEC121ADC927 /* Pods_Life_Translator.framework */; };
 		3AA2B549544D61BAFE66FB4E /* Pods_Life_TranslatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28DD317B04F1953148C99EF /* Pods_Life_TranslatorUITests.framework */; };
 		426C3F5C3E9433D41C818E4D /* Pods_Life_TranslatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AA51A6D8D34CFE0E85EB87 /* Pods_Life_TranslatorTests.framework */; };
@@ -67,9 +66,8 @@
 		00CBA74A1FB1FD5C0017ACED /* Credits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
 		00CF69C51FB3458E00ABF186 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		00D576831FB9A9B60073A3A2 /* IAPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPHandler.swift; sourceTree = "<group>"; };
-		00D576851FB9D6E60073A3A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		00DA925D1FBDD41D0096AF13 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
-		00F69A7F1FC73F83006A78CF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		00F69A8A1FC88216006A78CF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		06D24B692566FC564A6FAAE8 /* Pods-Life-TranslatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Life-TranslatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Life-TranslatorTests/Pods-Life-TranslatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2FE7C12DF45F7C0DFC07F77B /* Pods-Life-Translator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Life-Translator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Life-Translator/Pods-Life-Translator.release.xcconfig"; sourceTree = "<group>"; };
 		38AA51A6D8D34CFE0E85EB87 /* Pods_Life_TranslatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Life_TranslatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,7 +135,7 @@
 			children = (
 				004035CD1EF0282100DD8887 /* MLModel */,
 				0094920C1EF1DC1900DC9231 /* Translator.swift */,
-				00F69A7F1FC73F83006A78CF /* Constants.swift */,
+				00F69A8A1FC88216006A78CF /* Constants.swift */,
 				00DA925D1FBDD41D0096AF13 /* Tutorial.swift */,
 				008344C11FB1F0D60065D7C5 /* AdsManager.swift */,
 				00CBA74A1FB1FD5C0017ACED /* Credits.swift */,
@@ -148,7 +146,6 @@
 				0040359D1EF00C3200DD8887 /* Main.storyboard */,
 				004035A01EF00C3200DD8887 /* Assets.xcassets */,
 				004035A21EF00C3200DD8887 /* LaunchScreen.storyboard */,
-				00D576851FB9D6E60073A3A2 /* GoogleService-Info.plist */,
 				004035A51EF00C3200DD8887 /* Info.plist */,
 			);
 			path = "Life-Translator";
@@ -323,7 +320,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				004035A41EF00C3200DD8887 /* LaunchScreen.storyboard in Resources */,
-				00D576861FB9D6E70073A3A2 /* GoogleService-Info.plist in Resources */,
 				004035A11EF00C3200DD8887 /* Assets.xcassets in Resources */,
 				0040359F1EF00C3200DD8887 /* Main.storyboard in Resources */,
 			);
@@ -511,7 +507,7 @@
 				00DA925E1FBDD41D0096AF13 /* Tutorial.swift in Sources */,
 				004035981EF00C3200DD8887 /* AppDelegate.swift in Sources */,
 				0094920D1EF1DC1900DC9231 /* Translator.swift in Sources */,
-				00F69A801FC73F83006A78CF /* Constants.swift in Sources */,
+				00F69A8B1FC88216006A78CF /* Constants.swift in Sources */,
 				00D576841FB9A9B60073A3A2 /* IAPHandler.swift in Sources */,
 				008344C21FB1F0D60065D7C5 /* AdsManager.swift in Sources */,
 				00CBA74B1FB1FD5C0017ACED /* Credits.swift in Sources */,

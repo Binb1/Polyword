@@ -9,7 +9,6 @@
 import Foundation
 import Alamofire
 import SWXMLHash
-import FirebaseAnalytics
 
 class Translator {
     
@@ -19,11 +18,6 @@ class Translator {
     
     //Function fetching the translation token from Microsoft text translate API
     @objc func getToken() {
-        Analytics.logEvent("tokenRequest", parameters: [
-            "name": "tokenRequest" as NSObject,
-            "full_text": "tokenRequest" as NSObject
-        ])
-        
         let url = "https://api.cognitive.microsoft.com/sts/v1.0/issueToken"
         let headers: HTTPHeaders = ["Ocp-Apim-Subscription-Key": ocpKey ]
         
@@ -51,10 +45,6 @@ class Translator {
     
     //Function translating the object's name (in english) detected by the coreml module to the languages choosen by the user
     func translate(to: String, word: String, saver: Int) {
-        Analytics.logEvent("translateRequest", parameters: [
-            "name": "translateRequest" as NSObject,
-            "full_text": "translateRequest" as NSObject
-        ])
         
         if token.count > 0{
             let url = "https://api.microsofttranslator.com/v2/http.svc/Translate?appid=Bearer%20" +

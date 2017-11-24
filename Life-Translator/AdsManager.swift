@@ -8,7 +8,6 @@
 
 import UIKit
 import Foundation
-import Firebase
 
 class AdsManager: UIViewController {
    
@@ -24,18 +23,9 @@ class AdsManager: UIViewController {
     @IBAction func removeAdsSupportAction(_ sender: Any) {
         IAPHandler.shared.purchaseMyProduct(index: 0)
         disableAds()
-        
-        Analytics.logEvent("adsSupport", parameters: [
-            "name": "adsSupport" as NSObject,
-            "full_text": "Paid for ad" as NSObject
-        ])
     }
     
     @IBAction func removeAdsFreeAction(_ sender: Any) {
         disableAds()
-        Analytics.logEvent("adsFree", parameters: [
-            "name": "adsFree" as NSObject,
-            "full_text": "Free ad removal" as NSObject
-        ])
     }
 }
