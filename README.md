@@ -79,12 +79,12 @@ For this project I used the Mlmodel called Resnet50.
 
 ### Good to go!
 
-Now that everything is setup, you can build and launch the porject!
+Now that everything is setup, you can build and launch the project!
 Have fun!
 
 ## Download
 
-You can download the official Polyword in the app store directly: LINK
+You can download the official Polyword in the app store directly: Coming Soon
 
 ## Credits 👍
 
