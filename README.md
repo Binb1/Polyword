@@ -6,8 +6,6 @@
   <br>
 </h1>
 
-
-<br>
 ## Description
 
 Polyword helps you translating and learning words in new languages by just taking pictures of various things, such as objects or places!
@@ -43,7 +41,8 @@ $ cd Polyword
 $ pod install
 ```
 
-Now you can open the app in Xcode
+Now you can open the app in Xcode<br>
+
 ![screenshot](https://raw.githubusercontent.com/Binb1/Polyword/master/Ressources/ReadmeTuto01.png)
 
 You will notice that the Constants.swift file is missing.
