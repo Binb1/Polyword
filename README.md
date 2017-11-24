@@ -58,7 +58,7 @@ You can create a new Constants.swift file and put those different keys in it:
 * adMobAppID: Your adMobAppID account identifier
 * firstAdID: Your ad identifier from your adMobAppId
 
-```ruby
+```swift
 //Microsoft Azure part
 let ocpKey = YOUR_MICROSOFT_AZURE_TEXT_TRANSLATOR_KEY
 
