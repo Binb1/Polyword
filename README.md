@@ -4,6 +4,11 @@
   <br><br>
   Polyword
   <br>
+  <p align="center">
+  <a href="https://itunes.apple.com/fr/app/sloth-news/id1217046910?l=en&mt=8">
+    <img alt="Download on the App Store" title="App Store" src="http://i.imgur.com/0n2zqHD.png" width="140">
+  </a>
+  </p>
 </h1>
 
 ## Description
@@ -81,10 +86,6 @@ For this project I used the Mlmodel called Resnet50.
 
 Now that everything is setup, you can build and launch the project!
 Have fun!
-
-## Download
-
-You can download the official Polyword in the app store directly: Coming Soon
 
 ## Credits 👍
 
