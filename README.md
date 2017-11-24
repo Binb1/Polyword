@@ -19,6 +19,8 @@ More than 30 languages are available.
 
 ## Demo
 
+![screenshot](https://raw.githubusercontent.com/Binb1/Polyword/master/Ressources/demo00.gif)
+
 ## Technology used
 
 Polyword is based on several technologies:
