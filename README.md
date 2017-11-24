@@ -3,7 +3,7 @@
   <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/Binb1/Polyword/master/Ressources/Polyword.png" alt="Polyword" width="200"></a>
   <br><br>
   Polyword
-  <br>
+  <br><br>
   <p align="center">
   <a href="https://itunes.apple.com/fr/app/sloth-news/id1217046910?l=en&mt=8">
     <img alt="Download on the App Store" title="App Store" src="http://i.imgur.com/0n2zqHD.png" width="140">
