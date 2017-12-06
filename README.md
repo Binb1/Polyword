@@ -3,12 +3,17 @@
   <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/Binb1/Polyword/master/Ressources/Polyword.png" alt="Polyword" width="200"></a>
   <br><br>
   Polyword
-  <br>
+  <br><br>
+  <p align="center">
+  <a href="https://itunes.apple.com/fr/app/sloth-news/id1217046910?l=en&mt=8">
+    <img alt="Download on the App Store" title="App Store" src="http://i.imgur.com/0n2zqHD.png" width="140">
+  </a>
+  </p>
 </h1>
 
 ## Description
 
-Polyword helps you translating and learning words in new languages by just taking pictures of various things, such as objects or places!
+Polyword helps you translate and learning words in new languages by just taking pictures of various things, such as objects or places!
 
 It is an essential app when going abroad!
 
@@ -19,6 +24,8 @@ More than 30 languages are available.
 
 ## Demo
 
+![screenshot](https://raw.githubusercontent.com/Binb1/Polyword/master/Ressources/demo00.gif)
+
 ## Technology used
 
 Polyword is based on several technologies:
@@ -26,7 +33,7 @@ Polyword is based on several technologies:
 - <img src="https://raw.githubusercontent.com/Binb1/Polyword/master/Ressources/core-ml-icon.png" width="50"> [Object detection](https://developer.apple.com/documentation/coreml): To detect objects, I used Apple CoreML technology
 - <img src="https://raw.githubusercontent.com/Binb1/Polyword/master/Ressources/microsoft-azure-icon.png" width="50"> [Word translation](https://azure.microsoft.com/en-us/): To translate words between several languages, I used the Microsoft Azure Text Translator API
 - <img src="https://raw.githubusercontent.com/Binb1/Polyword/master/Ressources/admob-icon.png" width="50">  [Ads](https://www.google.com/admob/): To display ads, I used AdMob by google
-- <img src="https://raw.githubusercontent.com/Binb1/Polyword/master/Ressources/firebase-icon.png" width="50"> [Analytics](https://firebase.google.com): It is not display on this repository, but the Polyword app that you can download on the app store features some analytics tools. I used google [firebase](https://firebase.google.com) to easily implement analytics in my app.
+- <img src="https://raw.githubusercontent.com/Binb1/Polyword/master/Ressources/firebase-icon.png" width="50"> [Analytics](https://firebase.google.com): It is not displayed on this repository, but the Polyword app that you can download on the app store features some analytics tools. I used google [firebase](https://firebase.google.com) to easily implement analytics in my app.
 
 ## How to build the project ⚙️
 
@@ -77,12 +84,8 @@ For this project I used the Mlmodel called Resnet50.
 
 ### Good to go!
 
-Now that everything is setup, you can build and launch the porject!
+Now that everything is setup, you can build and launch the project!
 Have fun!
-
-## Download
-
-You can download the official Polyword in the app store directly: LINK
 
 ## Credits 👍
 
