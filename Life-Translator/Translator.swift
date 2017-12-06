@@ -16,7 +16,9 @@ class Translator {
     var finalTranslationFirst = "Loading..."
     var finalTranslationSecond = "Loading..."
     
-    //Function fetching the translation token from Microsoft text translate API
+    /**
+     Function fetching a translation token from Microsoft text translate API
+     */
     @objc func getToken() {
         let url = "https://api.cognitive.microsoft.com/sts/v1.0/issueToken"
         let headers: HTTPHeaders = ["Ocp-Apim-Subscription-Key": ocpKey ]
@@ -25,10 +27,8 @@ class Translator {
             print(response.error ?? "Error alamo")
             if response.error != nil {
                 Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(self.getToken), userInfo: nil, repeats: false)
-            }
-            else{
+            } else{
                 self.token = String(data: response.data!, encoding: String.Encoding.utf8) as String!
-                print(self.token)
             }
         }
         
@@ -43,16 +43,18 @@ class Translator {
         }
     }
     
-    //Function translating the object's name (in english) detected by the coreml module to the languages choosen by the user
+    /**
+     Function translating the object's name (in english) detected by the neural network to the langagues chosen by the user
+     */
     func translate(to: String, word: String, saver: Int) {
-        
         if token.count > 0{
+            //Building the url
             let url = "https://api.microsofttranslator.com/v2/http.svc/Translate?appid=Bearer%20" +
                 self.token + "&text=the%20" + convertWordToTranslatorFormat(word: word) +
                 "&from=en" + "&to=" + to
             
+            //Analyzing the server answer
             Alamofire.request(url).response { response in
-                //debugPrint(response)
                 if (response.error == nil){
                     let xml = SWXMLHash.parse(response.data!)
                     if saver == 1 {
@@ -81,7 +83,9 @@ class Translator {
         return word.replacingOccurrences(of: " ", with: "%20", options: .literal, range: nil)
     }
     
-    //Function returning translation results
+    /**
+     Function returning translation results
+     */
     func sendTranslateResult(saver: Int) -> String {
         if saver == 1 {
             return finalTranslationFirst
@@ -91,14 +95,18 @@ class Translator {
         }
     }
     
-    //Reseting translation fields
+    /**
+     Function reseting the translation fields
+     */
     func resetTranslation() {
         finalTranslationSecond = ""
         finalTranslationFirst = ""
     }
     
     
-    //Function going from the flag icon to the name associated with it in Microsoft language
+    /**
+     Function going from a flag icon to its associated name in the Microsoft language API
+     */
     func convertFlag(flag: String) -> String {
         //[ "🇫🇷", "🇬🇧", "🇪🇸", "🇩🇪",  "🇮🇹", "🇵🇱", "🇵🇹", "🇬🇷", "🇺🇸", "🇭🇹", "🇭🇷", "🇨🇿", "🇩🇰", "🇳🇱", "🇫🇮", "🇸🇪", "🇳🇴", "🇮🇱", "🇮🇳", "🇯🇵", "🇰🇷", "🇹🇭", "🇮🇩", "🇻🇳", "🇷🇺", "🇷🇸", "🇹🇷",  "🇺🇦", "🇸🇰", "🇸🇮",  "🇭🇺", "🇱🇹", "🇷🇴" ]
         //"🇫🇷", "🇬🇧", "🇪🇸", "🇩🇪",  "🇮🇹",  "🇵🇱", "🇵🇹", "🇬🇷" GOOD - DONE
@@ -149,6 +157,8 @@ class Translator {
         //"🇯🇵", "🇰🇷", "🇹🇭", "🇻🇳",  "🇮🇩",
         case "🇯🇵" :
             return "ja"
+        case "🇨🇳" :
+            return "zh-CHS"
         case "🇰🇷" :
             return "ko"
         case "🇹🇭" :
@@ -187,3 +197,4 @@ class Translator {
         }
     }
 }
+
