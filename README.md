@@ -87,6 +87,18 @@ For this project I used the Mlmodel called Resnet50.
 Now that everything is setup, you can build and launch the project!
 Have fun!
 
+## App Status
+
+The official Polyword app is currently being reviewed by Apple.
+It will soon be available on the app store.
+
+## Awesome ressources
+
+To build this app I used several tutorials and tips:
+
+- https://hackernoon.com/swift-how-to-add-in-app-purchases-in-your-ios-app-c1dc2fc82319
+- https://medium.com/@rizwanm/https-medium-com-rizwanm-swift-camera-part-1-c38b8b773b2
+
 ## Credits 👍
 
 - [Flaticon](https://www.flaticon.com): The website that provided the earth, flash and gears icons
