@@ -5,7 +5,7 @@
   Polyword
   <br><br>
   <p align="center">
-  <a href="https://itunes.apple.com/fr/app/sloth-news/id1217046910?l=en&mt=8">
+  <a href="https://itunes.apple.com/fr/app/polyword/id1299707282?l=en&mt=8">
     <img alt="Download on the App Store" title="App Store" src="http://i.imgur.com/0n2zqHD.png" width="140">
   </a>
   </p>
@@ -89,15 +89,20 @@ Have fun!
 
 ## App Status
 
-The official Polyword app is currently being reviewed by Apple.
-It will soon be available on the app store.
+The official Polyword app is currently available!
+A patch is coming soon to fix some minor bugs.
 
 ## Awesome ressources
 
 To build this app I used several tutorials and tips:
 
-- https://hackernoon.com/swift-how-to-add-in-app-purchases-in-your-ios-app-c1dc2fc82319
-- https://medium.com/@rizwanm/https-medium-com-rizwanm-swift-camera-part-1-c38b8b773b2
+* Three great articles
+  * https://hackernoon.com/swift-how-to-add-in-app-purchases-in-your-ios-app-c1dc2fc82319
+  * https://medium.com/@rizwanm/https-medium-com-rizwanm-swift-camera-part-1-c38b8b773b2
+  * https://medium.com/@craiggrummitt/size-classes-in-interface-builder-in-xcode-8-74f20a541195
+* Two awesome websites full of great tutorials:
+  * https://www.raywenderlich.com
+  * http://nshipster.com
 
 ## Credits 👍
 
