@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.0'
+platform :ios, '11.0'
 use_frameworks!
 
 
@@ -13,7 +13,8 @@ target 'Life-Translator' do
   pod 'Firebase/AdMob'
   pod 'Google-Mobile-Ads-SDK'
   pod 'Firebase/Core'
-  
+  pod 'Fritz', '~> 1.0.0-beta'
+
   target 'Life-TranslatorTests' do
     inherit! :search_paths
     # Pods for testing
