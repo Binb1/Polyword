@@ -18,8 +18,8 @@ class PictureManager: NSObject, UIImagePickerControllerDelegate {
     //Action when picture was taken
     func analyzePicture(image: UIImage) {
                 
-        guard let model = try? VNCoreMLModel(for: Resnet50().model) else {
-            fatalError("can't load Places ML model")
+        guard let model = try? VNCoreMLModel(for: Resnet50().fritz().model) else {
+            fatalError("can't load Resnet ML model")
         }
         
         let request = VNCoreMLRequest(model: model) { [] request, error in
