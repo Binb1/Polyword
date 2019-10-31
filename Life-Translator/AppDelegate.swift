@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import GoogleMobileAds
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,8 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         UIApplication.shared.statusBarStyle = .lightContent
         
-        // Initialize the Google Mobile Ads SDK.
-        GADMobileAds.configure(withApplicationID: adMobAppID)
                 
         return true
     }

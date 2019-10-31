@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,34 +21,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Polyword - credits.png" translatesAutoresizingMaskIntoConstraints="NO" id="RfO-NB-ZZe">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="planet-earth" translatesAutoresizingMaskIntoConstraints="NO" id="ZDx-fb-4ol">
-                                <rect key="frame" x="66" y="94" width="243" height="243"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iTunesArtwork" translatesAutoresizingMaskIntoConstraints="NO" id="ZDx-fb-4ol">
+                                <rect key="frame" x="56" y="74" width="263" height="263"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ZDx-fb-4ol" secondAttribute="height" multiplier="1:1" id="dp3-XQ-pBo"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="🇫🇷🇬🇧🇮🇹🇩🇪🇪🇸  Polyword  🇵🇹🇺🇸🇷🇺🇨🇳🇸🇪" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ils-JR-Al8">
-                                <rect key="frame" x="16" y="387" width="343" height="42"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="🇫🇷🇬🇧🇮🇹🇩🇪🇪🇸  Polyword  🇵🇹🇺🇸🇷🇺🇨🇳🇸🇪" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ils-JR-Al8">
+                                <rect key="frame" x="16" y="387" width="343" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="JGn-5X-AZO"/>
+                                </constraints>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ZDx-fb-4ol" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="50" id="0hx-mB-aAT"/>
-                            <constraint firstItem="RfO-NB-ZZe" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="0jt-Ko-vBI"/>
-                            <constraint firstItem="ZDx-fb-4ol" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="50" id="EO2-kv-cwc"/>
-                            <constraint firstAttribute="trailing" secondItem="RfO-NB-ZZe" secondAttribute="trailing" id="G6c-m0-VNc"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ZDx-fb-4ol" secondAttribute="trailing" constant="50" id="KwI-Vf-6wM"/>
+                            <constraint firstItem="ZDx-fb-4ol" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="40" id="0hx-mB-aAT"/>
+                            <constraint firstItem="ZDx-fb-4ol" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="30" id="EO2-kv-cwc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZDx-fb-4ol" secondAttribute="trailing" constant="40" id="KwI-Vf-6wM"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ils-JR-Al8" secondAttribute="trailing" id="Msa-Nb-L9U"/>
                             <constraint firstItem="ils-JR-Al8" firstAttribute="top" secondItem="ZDx-fb-4ol" secondAttribute="bottom" constant="50" id="Xyf-9x-fAj"/>
-                            <constraint firstAttribute="bottom" secondItem="RfO-NB-ZZe" secondAttribute="bottom" id="gh7-Iu-i8L"/>
-                            <constraint firstItem="RfO-NB-ZZe" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="moM-2O-k1k"/>
                             <constraint firstItem="ils-JR-Al8" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="rji-JI-Lzv"/>
                         </constraints>
                     </view>
@@ -60,7 +54,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Polyword - credits.png" width="1080" height="1920"/>
-        <image name="planet-earth" width="512" height="512"/>
+        <image name="iTunesArtwork" width="512" height="512"/>
     </resources>
 </document>

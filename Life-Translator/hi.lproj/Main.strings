@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "0rp-T4-MZu"; */
+"0rp-T4-MZu.normalTitle" = "किया हुआ";
+
+/* Class = "UIButton"; normalTitle = "Robin Champsaur"; ObjectID = "3Mf-yC-HNB"; */
+"3Mf-yC-HNB.normalTitle" = "Robin Champsaur";
+
+/* Class = "UIButton"; normalTitle = "📸"; ObjectID = "6HT-ky-36S"; */
+"6HT-ky-36S.normalTitle" = "📸";
+
+/* Class = "UITextView"; text = "🇫🇷🇬🇧🇷🇺🇨🇳🇮🇹🇵🇹🇪🇸🇺🇸\n🇫🇮   Welcome to    🇳🇴 \n🇹🇷     Polyword       🇭🇷\n🇯🇵🇩🇪🇵🇱🇮🇳🇰🇷🇸🇪🇩🇰🇬🇷"; ObjectID = "Vnb-8u-p88"; */
+"Vnb-8u-p88.text" = "🇫🇷🇬🇧🇷🇺🇨🇳🇮🇹🇵🇹🇪🇸🇺🇸\n🇫🇮   में स्वागत    🇳🇴 \n🇹🇷     लाइव अनुवादक       🇭🇷\n🇯🇵🇩🇪🇵🇱🇮🇳🇰🇷🇸🇪🇩🇰🇬🇷";
+
+/* Class = "UITextView"; text = "  Snap something! 📸"; ObjectID = "X9r-ge-SOf"; */
+"X9r-ge-SOf.text" = " कुछ तस्वीर 📸";
+
+/* Class = "UITextView"; text = "Developed by 👨‍💻"; ObjectID = "esd-R3-TXb"; */
+"esd-R3-TXb.text" = "द्वारा विकसित 👨‍💻";
+
+/* Class = "UIButton"; normalTitle = "Access to the tutorial"; ObjectID = "pS8-0E-ZFr"; */
+"pS8-0E-ZFr.normalTitle" = "ट्यूटोरियल के लिए प्रवेश";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "r35-DZ-Zth"; */
+"r35-DZ-Zth.normalTitle" = "आगामी";
+
+/* Class = "UITextView"; text = "\nThis app helps you translating and learning words in new languages by just taking pictures of various things, such as objects or places!"; ObjectID = "sKR-5H-Hzx"; */
+"sKR-5H-Hzx.text" = "\nयह ऐप आपको विभिन्न चीजों, जैसे ऑब्जेक्ट्स या स्थानों की तस्वीरें लेकर नई भाषाओं में शब्दों का अनुवाद करने और सीखने में मदद करता है";
+
+/* Class = "UITextView"; text = "Credits to 👍\n\nMy family for the inspiration\n\nflaticon.com for the \nEarth, Gear and flash Icons"; ObjectID = "tX5-Hp-I8i"; */
+"tX5-Hp-I8i.text" = "आभार से 👍\n\nप्रेरणा के लिए मेरा परिवार\n\nflaticon.com के लिए \nपृथ्वी, गियर और फ्लैश प्रतीक";

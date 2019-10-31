@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "0rp-T4-MZu"; */
+"0rp-T4-MZu.normalTitle" = "完成";
+
+/* Class = "UIButton"; normalTitle = "Robin Champsaur"; ObjectID = "3Mf-yC-HNB"; */
+"3Mf-yC-HNB.normalTitle" = "Robin Champsaur";
+
+/* Class = "UIButton"; normalTitle = "📸"; ObjectID = "6HT-ky-36S"; */
+"6HT-ky-36S.normalTitle" = "📸";
+
+/* Class = "UITextView"; text = "🇫🇷🇬🇧🇷🇺🇨🇳🇮🇹🇵🇹🇪🇸🇺🇸\n🇫🇮   Welcome to    🇳🇴 \n🇹🇷     Polyword       🇭🇷\n🇯🇵🇩🇪🇵🇱🇮🇳🇰🇷🇸🇪🇩🇰🇬🇷"; ObjectID = "Vnb-8u-p88"; */
+"Vnb-8u-p88.text" = "🇫🇷🇬🇧🇷🇺🇨🇳🇮🇹🇵🇹🇪🇸🇺🇸\n🇫🇮   歡迎來到    🇳🇴 \n🇹🇷     現場翻譯       🇭🇷\n🇯🇵🇩🇪🇵🇱🇮🇳🇰🇷🇸🇪🇩🇰🇬🇷";
+
+/* Class = "UITextView"; text = "  Snap something! 📸"; ObjectID = "X9r-ge-SOf"; */
+"X9r-ge-SOf.text" = "  抓住一些東西 📸";
+
+/* Class = "UITextView"; text = "Developed by 👨‍💻"; ObjectID = "esd-R3-TXb"; */
+"esd-R3-TXb.text" = "由開發 👨‍💻";
+
+/* Class = "UIButton"; normalTitle = "Access to the tutorial"; ObjectID = "pS8-0E-ZFr"; */
+"pS8-0E-ZFr.normalTitle" = "訪問教程";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "r35-DZ-Zth"; */
+"r35-DZ-Zth.normalTitle" = "下一個";
+
+/* Class = "UITextView"; text = "\nThis app helps you translating and learning words in new languages by just taking pictures of various things, such as objects or places!"; ObjectID = "sKR-5H-Hzx"; */
+"sKR-5H-Hzx.text" = "\n這個應用程序可以幫助您翻譯和學習新語言的單詞，只需拍攝各種事物，如對像或地方";
+
+/* Class = "UITextView"; text = "Credits to 👍\n\nMy family for the inspiration\n\nflaticon.com for the \nEarth, Gear and flash Icons"; ObjectID = "tX5-Hp-I8i"; */
+"tX5-Hp-I8i.text" = "積分來 👍\n\n我的家人為靈感\n\nflaticon.com 為了 \n地球，齒輪和閃光圖標";

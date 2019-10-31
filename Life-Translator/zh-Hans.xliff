@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Life-Translator/Base.lproj/LaunchScreen.storyboard" datatype="plaintext" source-language="en" target-language="zh-Hans">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
+    </header>
+    <body>
+      <trans-unit id="ils-JR-Al8.text">
+        <source>🇫🇷🇬🇧🇮🇹🇩🇪🇪🇸  Polyword  🇵🇹🇺🇸🇷🇺🇨🇳🇸🇪</source>
+        <note>Class = "UITextField"; text = "🇫🇷🇬🇧🇮🇹🇩🇪🇪🇸  Polyword  🇵🇹🇺🇸🇷🇺🇨🇳🇸🇪"; ObjectID = "ils-JR-Al8";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Life-Translator/Base.lproj/Main.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
+    </header>
+    <body>
+      <trans-unit id="0rp-T4-MZu.normalTitle">
+        <source>Done</source>
+        <target>完成</target>
+        <note>Class = "UIButton"; normalTitle = "Done"; ObjectID = "0rp-T4-MZu";</note>
+      </trans-unit>
+      <trans-unit id="3Mf-yC-HNB.normalTitle">
+        <source>Robin Champsaur</source>
+        <target>Robin Champsaur</target>
+        <note>Class = "UIButton"; normalTitle = "Robin Champsaur"; ObjectID = "3Mf-yC-HNB";</note>
+      </trans-unit>
+      <trans-unit id="6HT-ky-36S.normalTitle">
+        <source>📸</source>
+        <target>📸</target>
+        <note>Class = "UIButton"; normalTitle = "📸"; ObjectID = "6HT-ky-36S";</note>
+      </trans-unit>
+      <trans-unit id="Vnb-8u-p88.text">
+        <source>🇫🇷🇬🇧🇷🇺🇨🇳🇮🇹🇵🇹🇪🇸🇺🇸
+🇫🇮   Welcome to    🇳🇴 
+🇹🇷     Polyword       🇭🇷
+🇯🇵🇩🇪🇵🇱🇮🇳🇰🇷🇸🇪🇩🇰🇬🇷</source>
+        <target>🇫🇷🇬🇧🇷🇺🇨🇳🇮🇹🇵🇹🇪🇸🇺🇸
+🇫🇮   欢迎来到    🇳🇴 
+🇹🇷     Polyword       🇭🇷
+🇯🇵🇩🇪🇵🇱🇮🇳🇰🇷🇸🇪🇩🇰🇬🇷</target>
+        <note>Class = "UITextView"; text = "🇫🇷🇬🇧🇷🇺🇨🇳🇮🇹🇵🇹🇪🇸🇺🇸\n🇫🇮   Welcome to    🇳🇴 \n🇹🇷     Polyword       🇭🇷\n🇯🇵🇩🇪🇵🇱🇮🇳🇰🇷🇸🇪🇩🇰🇬🇷"; ObjectID = "Vnb-8u-p88";</note>
+      </trans-unit>
+      <trans-unit id="X9r-ge-SOf.text">
+        <source>  Snap something! 📸</source>
+        <target>  抓住一些东西 📸</target>
+        <note>Class = "UITextView"; text = "  Snap something! 📸"; ObjectID = "X9r-ge-SOf";</note>
+      </trans-unit>
+      <trans-unit id="esd-R3-TXb.text">
+        <source>Developed by 👨‍💻</source>
+        <target>由开发 👨‍💻</target>
+        <note>Class = "UITextView"; text = "Developed by 👨‍💻"; ObjectID = "esd-R3-TXb";</note>
+      </trans-unit>
+      <trans-unit id="pS8-0E-ZFr.normalTitle">
+        <source>Access to the tutorial</source>
+        <target>访问教程</target>
+        <note>Class = "UIButton"; normalTitle = "Access to the tutorial"; ObjectID = "pS8-0E-ZFr";</note>
+      </trans-unit>
+      <trans-unit id="r35-DZ-Zth.normalTitle">
+        <source>Next</source>
+        <target>下一个</target>
+        <note>Class = "UIButton"; normalTitle = "Next"; ObjectID = "r35-DZ-Zth";</note>
+      </trans-unit>
+      <trans-unit id="sKR-5H-Hzx.text">
+        <source>
+This app helps you translating and learning words in new languages by just taking pictures of various things, such as objects or places!</source>
+        <target>
+这个应用程序可以帮助您翻译和学习新语言的单词，只需拍摄各种事物，如对象或地方</target>
+        <note>Class = "UITextView"; text = "\nThis app helps you translating and learning words in new languages by just taking pictures of various things, such as objects or places!"; ObjectID = "sKR-5H-Hzx";</note>
+      </trans-unit>
+      <trans-unit id="tX5-Hp-I8i.text">
+        <source>Credits to 👍
+
+My family for the inspiration
+
+flaticon.com for the 
+Earth, Gear and flash Icons</source>
+        <target>积分来 👍
+
+我的家人为灵感
+
+flaticon.com 为了 
+地球，齿轮和闪光图标</target>
+        <note>Class = "UITextView"; text = "Credits to 👍\n\nMy family for the inspiration\n\nflaticon.com for the \nEarth, Gear and flash Icons"; ObjectID = "tX5-Hp-I8i";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Life-Translator/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="zh-Hans">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>Polyword</source>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>Life-Translator</source>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSCameraUsageDescription">
+        <source>This application will use the camera to take picture and analyze the objects and places contained in the picture.</source>
+        <note>Privacy - Camera Usage Description</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

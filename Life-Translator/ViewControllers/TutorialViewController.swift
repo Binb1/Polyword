@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class Tutorial: UIViewController {
+class TutorialViewController: UIViewController {
     
     @IBOutlet weak var introText: UITextView!
 }

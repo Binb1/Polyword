@@ -17,7 +17,8 @@ class PictureManager: NSObject, UIImagePickerControllerDelegate {
     
     //Action when picture was taken
     func analyzePicture(image: UIImage) {
-                
+        
+        //Setting up the ML analysis process
         guard let model = try? VNCoreMLModel(for: Resnet50().model) else {
             fatalError("can't load Places ML model")
         }
@@ -30,11 +31,12 @@ class PictureManager: NSObject, UIImagePickerControllerDelegate {
             
             // Update UI on main queue
             DispatchQueue.main.async { [] in
-                let token = topResult.identifier.components(separatedBy: ",")[0]
-                if topResult.confidence * 100 < 18 {
+                let token = topResult.identifier.components(separatedBy: ",")
+                // Checking that the analysis confidence score of the object is not too low to be sure to display a pertinent result
+                if topResult.confidence * 100 < 10 {
                     self.analyzeResult = "Couldn't find the corresponding object"
                 } else {
-                    self.analyzeResult = "\(token)"
+                    self.analyzeResult = "\(token[0])"
                 }
                 print(self.analyzeResult +  "(\(Int(topResult.confidence * 100))%)")
             }

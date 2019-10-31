@@ -1,0 +1,6 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "Polyword";
+/* Bundle name */
+"CFBundleName" = "Life-Translator";
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "This application will use the camera to take picture and analyze the objects and places contained in the picture.";
